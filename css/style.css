@@ -1,0 +1,304 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Navigation */
+.nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  background-color: #222;
+
+  padding: 10px 0;
+}
+
+.nav ul li {
+  margin: 0 15px;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.nav ul li a:hover {
+  color: #ff9800;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+  background: linear-gradient(to right, #ff9800, #ff5722);
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.hero .phiby img {
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+/* About Section */
+#about {
+  display: flex;
+  gap: 30px;
+  margin: 50px 0;
+  align-items: flex-start;
+}
+
+#about .left {
+  flex: 1;
+}
+/* .btnn{
+  display: flex;
+  align-items: center;
+} */
+#me{
+display: flex
+}
+.me{
+  padding: 7%;
+  border: 2px solid orange;
+  width: 50%;
+}
+.name h3{
+margin-left: 40% ;
+}
+
+/* #about .about-me {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+} */
+
+/* .about-me .name {
+  flex: 1;
+} */
+.hh{
+  text-align: center;
+}
+h1{
+  text-align: center;
+}
+.about-me h3 {
+  font-size: 1.2rem;
+  color: #ff9800;
+  margin-bottom: 5px;
+}
+
+.about-me h4 {
+  font-size: 1rem;
+}
+
+
+/* Skills Section */
+.skillss {
+  margin: 50px 0;
+  text-align: center;
+}
+
+.skillss h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+/* h4{
+  text-align: center;
+} */
+
+.skillss h4 {
+  font-size: 1.2rem;
+  color: #777;
+}
+
+.skillss h3 {
+  margin: 10px 0;
+  color: #555;
+}
+
+/* Services */
+#services {
+  margin: 50px 0;
+}
+
+#services h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.service-grid {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+}
+
+.service-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.service-card h3 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  color: #ff9800;
+}
+
+/* Portfolio */
+.project {
+  margin: 50px 0;
+}
+
+.project h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.binti {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.binti-pamoja {
+  flex: 1 1 300px;
+  text-align: center;
+}
+
+.binti-pamoja img {
+  border-radius: 8px;
+  width: 100%;
+  height: auto;
+}
+
+.binti-pamoja h2 {
+  margin-top: 10px;
+  color: #333;
+}
+
+.binti-pamoja button {
+  background: #ff9800;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.binti-pamoja button:hover {
+  background: #ff5722;
+}
+ button:hover{
+  background-color: #ff5722;
+}
+.test{
+  text-align: center;
+  margin-top: 5%;
+}
+
+/* Contact */
+/* .contact {
+  margin: 50px 0;
+  text-align: center;
+} */
+
+/* .contact h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+} */
+
+.text-text {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  /* flex-wrap: wrap; */
+}
+
+
+.text-text .text {
+  flex: 1;
+}
+
+/* .text input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+} */
+#input{
+padding: 20px;
+margin: 10px 0;
+border-radius: 5px;
+border: 1px solid orange;
+}
+.text{
+  display: flex;
+  gap: 40px;
+}
+.input{
+  padding: 50px;
+  margin-bottom: 5%;
+  width: 50%;
+  border: 2px solid orange;
+}
+.btn{
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 10px 15px;
+  border: none;
+  background: #ff9800;
+  color: #fff;
+
+}
+
+.text .btn:hover {
+  background: #ff5722;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #222;
+  color: #fff;}
